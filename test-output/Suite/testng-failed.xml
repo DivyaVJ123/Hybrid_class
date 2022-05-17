@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="FaceBook Test(failed)">
+    <classes>
+      <class name="testcases.TC_LoginTest_001">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- testcases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- FaceBook Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

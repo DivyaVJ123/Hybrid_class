@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<listeners>
+<listener class-name="utilities.Reporting"/>
+</listeners>
+  <test name="FaceBook Test">
+    <classes>
+      <class name="testcases.TC_LoginTest_001"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
